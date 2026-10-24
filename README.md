@@ -147,4 +147,3 @@ The repository includes:
 ## Conclusion
 
 This project demonstrated basic network reconnaissance, service identification, TCP traffic analysis, HTTP inspection, and technical security documentation using Kali Linux, Nmap, Wireshark, and VirtualBox.
-```
