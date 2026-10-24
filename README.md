@@ -69,13 +69,18 @@ No public websites, external IP addresses, school networks, or third-party syste
 │   ├── service-detection.md
 │   └── detailed-scan.md
 ├── screenshots/
-│   ├── 01-virtualbox-network-setup.png
-│   ├── 02-ip-addresses.png
-│   ├── 03-successful-ping.png
-│   ├── 04-nmap-basic-scan.png
-│   ├── 05-nmap-service-detection.png
-│   ├── 06-wireshark-http-traffic.png
-│   └── 07-wireshark-tcp-analysis.png
+    ├── Successful-ping.png
+    ├── ip-address-kali.png
+    ├── ip-address-meta.png
+    ├── nmap-basic-scan.png
+    ├── nmap-service-detection1.png
+    ├── nmap-service-detection2.png
+    ├── nmap-service-detection3.png
+    ├── virtualbox-network-setup-kali.png
+    ├── virtualbox-network-setup-meta.png
+    ├── wireshark-http-traffic.png
+    ├── wireshark-tcp-analysis.png
+    └── wireshark-tcp-analysis2.png
 └── report/
     └── security-assessment.md
 ```
