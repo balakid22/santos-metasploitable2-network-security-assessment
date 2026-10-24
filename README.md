@@ -62,9 +62,6 @@ No public websites, external IP addresses, school networks, or third-party syste
 
 ## PROJECT STRUCTURE
 ```text
-## Project Structure
-
-```text
 .
 ├── README.md
 ├── report/
@@ -89,7 +86,35 @@ No public websites, external IP addresses, school networks, or third-party syste
     ├── wireshark-tcp-analysis.png
     └── wireshark-tcp-analysis2.png
 ```
-```
+## Evidence Screenshots
+
+### VirtualBox Network Setup
+
+![Kali Network Setup](screenshots/virtualbox-network-setup-kali.png)
+
+![Metasploitable Network Setup](screenshots/virtualbox-network-setup-meta.png)
+
+### IP Address Configuration
+
+![Kali IP Address](screenshots/ip-address-kali.png)
+
+![Metasploitable IP Address](screenshots/ip-address-meta.png)
+
+### Connectivity Test
+
+![Successful Ping](screenshots/Successful-ping.png)
+
+### Nmap Results
+
+![Basic Nmap Scan](screenshots/nmap-basic-scan.png)
+
+![Nmap Service Detection](screenshots/nmap-service-detection1.png)
+
+### Wireshark Analysis
+
+![HTTP Traffic](screenshots/wireshark-http-traffic.png)
+
+![TCP Traffic Analysis](screenshots/wireshark-tcp-analysis.png)
 
 ## Evidence
 The repository includes:
@@ -109,3 +134,4 @@ The repository includes:
 
 ## Conclusion
 This project demonstrated basic network reconnaissance, service identification, TCP traffic analysis, HTTP inspection, and technical security documentation using Kali Linux, Nmap, Wireshark, and VirtualBox.
+
