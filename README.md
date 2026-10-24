@@ -62,13 +62,20 @@ No public websites, external IP addresses, school networks, or third-party syste
 
 ## PROJECT STRUCTURE
 ```text
+## Project Structure
+
+```text
 .
 ├── README.md
+├── report/
+│   └── security-assessment.md
 ├── scans/
+│   ├── .gitkeep
 │   ├── basic-scan.md
 │   ├── service-detection.md
 │   └── detailed-scan.md
-├── screenshots/
+└── screenshots/
+    ├── .gitkeep
     ├── Successful-ping.png
     ├── ip-address-kali.png
     ├── ip-address-meta.png
@@ -81,8 +88,7 @@ No public websites, external IP addresses, school networks, or third-party syste
     ├── wireshark-http-traffic.png
     ├── wireshark-tcp-analysis.png
     └── wireshark-tcp-analysis2.png
-└── report/
-    └── security-assessment.md
+```
 ```
 
 ## Evidence
