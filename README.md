@@ -6,6 +6,13 @@ This project documents an authorized network security assessment performed again
 
 The assessment was conducted in an isolated VirtualBox Host-only network using Kali Linux as the analyst machine.
 
+## Documentation
+
+- [Basic Nmap Scan](scans/basic-scan.md)
+- [Service Detection](scans/service-detection.md)
+- [Detailed Nmap Scan](scans/detailed-scan.md)
+- [Security Assessment Report](report/security-assessment.md)
+
 ## Lab Architecture
 
 ```text
