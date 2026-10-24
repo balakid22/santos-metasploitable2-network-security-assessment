@@ -65,9 +65,9 @@ No public websites, external IP addresses, school networks, or third-party syste
 .
 ├── README.md
 ├── scans/
-│   ├── basic-scan.txt
-│   ├── service-detection.txt
-│   └── detailed-scan.txt
+│   ├── basic-scan.md
+│   ├── service-detection.md
+│   └── detailed-scan.md
 ├── screenshots/
 │   ├── 01-virtualbox-network-setup.png
 │   ├── 02-ip-addresses.png
