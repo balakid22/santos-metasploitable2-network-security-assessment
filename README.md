@@ -6,13 +6,6 @@ This project documents an authorized network security assessment performed again
 
 The assessment was conducted in an isolated VirtualBox Host-only network using Kali Linux as the analyst machine.
 
-## Documentation
-
-- [Basic Nmap Scan](scans/basic-scan.md)
-- [Service Detection](scans/service-detection.md)
-- [Detailed Nmap Scan](scans/detailed-scan.md)
-- [Security Assessment Report](report/security-assessment.md)
-
 ## Lab Architecture
 
 ```text
@@ -25,24 +18,24 @@ Metasploitable 2 VM
 IP: 192.168.182.3
 ```
 
-
 ## Objectives
+
 - Verify connectivity between Kali Linux and Metasploitable 2
 - Identify open ports and exposed services
 - Detect service and version information
 - Capture and analyze TCP and HTTP traffic
 - Document security observations and recommendations
 
-
 ## Tools Used
+
 - Kali Linux
 - Nmap
 - Wireshark
 - VirtualBox
 - GitHub
 
-
 ## Methodology
+
 1. Configured Kali Linux and Metasploitable 2 using a VirtualBox Host-only network.
 2. Verified connectivity using ping.
 3. Performed a basic Nmap scan.
@@ -50,16 +43,18 @@ IP: 192.168.182.3
 5. Performed a detailed Nmap scan using default scripts.
 6. Captured traffic using Wireshark.
 7. Analyzed TCP and HTTP traffic.
-8. Documented findings and recommendations.
-
+8. Documented findings, limitations, and recommendations.
 
 ## Scope and Authorization
+
 All testing was conducted against an intentionally vulnerable virtual machine owned and controlled by the student.
+
 The assessment was limited to the isolated VirtualBox Host-only lab environment.
+
 No public websites, external IP addresses, school networks, or third-party systems were scanned.
 
-
 ## Main Observations
+
 - The Metasploitable 2 target was reachable from Kali Linux.
 - Multiple TCP services were exposed on the target.
 - Nmap identified service names and version information.
@@ -67,7 +62,15 @@ No public websites, external IP addresses, school networks, or third-party syste
 - HTTP traffic to the target was visible during packet analysis.
 - Unnecessary services should be disabled or restricted in a real production environment.
 
-## PROJECT STRUCTURE
+## Documentation
+
+- [Basic Nmap Scan](scans/basic-scan.md)
+- [Service Detection](scans/service-detection.md)
+- [Detailed Nmap Scan](scans/detailed-scan.md)
+- [Security Assessment Report](report/security-assessment.md)
+
+## Project Structure
+
 ```text
 .
 ├── README.md
@@ -93,6 +96,7 @@ No public websites, external IP addresses, school networks, or third-party syste
     ├── wireshark-tcp-analysis.png
     └── wireshark-tcp-analysis2.png
 ```
+
 ## Evidence Screenshots
 
 ### VirtualBox Network Setup
@@ -123,22 +127,24 @@ No public websites, external IP addresses, school networks, or third-party syste
 
 ![TCP Traffic Analysis](screenshots/wireshark-tcp-analysis.png)
 
-## Evidence
+## Evidence Summary
+
 The repository includes:
-- Nmap scan outputs
+
+- Nmap scan summaries
 - VirtualBox network configuration screenshots
-- Connectivity verification screenshots
+- IP address and connectivity evidence
 - Wireshark TCP and HTTP traffic screenshots
 - A technical security assessment report
 
-
 ## Limitations
+
 - Testing was performed only against an authorized virtual machine.
 - The target was intentionally vulnerable for educational purposes.
 - No exploitation or brute-force testing was performed.
 - The assessment does not represent a complete enterprise security assessment.
 
-
 ## Conclusion
-This project demonstrated basic network reconnaissance, service identification, TCP traffic analysis, HTTP inspection, and technical security documentation using Kali Linux, Nmap, Wireshark, and VirtualBox.
 
+This project demonstrated basic network reconnaissance, service identification, TCP traffic analysis, HTTP inspection, and technical security documentation using Kali Linux, Nmap, Wireshark, and VirtualBox.
+```
